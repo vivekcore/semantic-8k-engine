@@ -1,0 +1,8 @@
+{
+  "name": "@engine/worker",
+  "private": true,
+  "scripts": {
+    "dev": "uv run python src/main.py",
+    "dev:embed": "uv run uvicorn worker.embed_service:app --reload --port 8001"
+  }
+}

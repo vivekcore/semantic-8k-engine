@@ -1,0 +1,8 @@
+packages:
+  - frontend
+  - backend
+  - worker/*
+  - packages/*
+allowBuilds:
+  esbuild: false
+  unrs-resolver: false
