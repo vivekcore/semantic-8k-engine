@@ -1,0 +1,9 @@
+{
+  "name": "semantic-8k-engine",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
